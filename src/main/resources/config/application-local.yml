@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: qq
+    password: 12345
+    driver-class-name: org.postgresql.Driver
+  transaction:
+    rollback-on-commit-failure: true
+
+mock:
+  api:
+    url: https://localhost:8443/mock
